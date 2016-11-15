@@ -2,25 +2,15 @@
 <body>
 <div class="layer"></div>
 <div class="popup">
-    <?php
-    if($_GET['receipt_id']){
-        echo "<script> $('.popup').addClass('visible'); $('.layer').addClass('visible'); </script>";
-        get_receipt($_GET['receipt_id']);
-    }
-    ?>
-    <form action="index.php">
+        <form action="index.php">
         <button onclick="invisible()">Sluiten</button>
     </form>
 </div>
-        <?php include "includes/menu.php" ?>
-        <div class="canvas" style="background: none!important; box-shadow: none!important; margin-top: 0px!important; padding-top: 75px;">
-            <a href="table_settings.php">
-                <i class="fa fa-cog fa-2x"></i>
-            </a>
-            <?php
-                table_list();
-            ?>
-
+    <?php include "includes/menu.php" ?>
+        <div class="canvas">
+            <div class="innerCanvas">
+               
+            </div>
         </div>
         <script>
             function invisible(){

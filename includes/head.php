@@ -1,6 +1,6 @@
 <?php
     ob_start();
-    include "php/functions.php"
+    //include "php/functions.php"
 ?>
 <html>
 <head>
