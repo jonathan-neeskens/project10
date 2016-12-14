@@ -1,18 +1,20 @@
 
 <div class="menu bit-10">
-    <a href="index.php" class="menu_item">
-        <i class="fa fa-home fa-2x"></i>
-    </a>
-
-    <a href="customers.php" class="menu_item">
-        <i class="fa fa-users fa-2x"></i>
-    </a>
-
     <a href="menus.php" class="menu_item">
-        <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-cutlery fa-2x"></i>
     </a>
 
-    <a href="reservations.php?view=today" class="menu_item">
-        <i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+    <a href="suppliers.php" class="menu_item">
+        <i class="fa fa-truck fa-2x"></i>
     </a>
+
+    <a href="stock.php" class="menu_item">
+        <i class="fa fa-archive fa-2x" aria-hidden="true"></i>
+    </a>
+
+    <a href="order.php" class="menu_item">
+        <i class="fa fa-first-order fa-2x" aria-hidden="true"></i>
+    </a>
+
+
 </div>

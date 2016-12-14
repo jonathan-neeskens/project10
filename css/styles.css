@@ -83,7 +83,9 @@ body{
     position: fixed;
     top: 0px;
 }
-
+.error{
+    color:#F44336;
+}
 .menu_item i{
     margin: 30px;
     margin-left: 50px;
@@ -136,6 +138,21 @@ i:hover{
 .list_item{
     height: 150px;
     border-bottom: 1px solid #cfcfcf;
+}
+
+.list_item u{
+   text-decoration: none;
+    font-weight: 700;
+}
+
+.list_item .green{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.list_item .green{
+    text-decoration: none;
+    font-weight: 700;
 }
 
 .list_item .user_pic{
@@ -221,6 +238,7 @@ i:hover{
 
 .inside_innerCanvas{
     margin-left: 70px;
+    padding-top: 70px;
 }
 
 .printbutton{
@@ -338,10 +356,19 @@ select.invisible{
     border-right: 5px solid #5d4037;
 }
 
-.list-section{
+.list-section
+{
     width: 20%;
     float: left;
     padding-top: 60px;
+}
+
+.list-section strong{
+    font-weight: 100!important;
+}
+
+.list-section.w50{
+    width: 50%!important;
 }
 
 .list-section i:hover{
@@ -460,7 +487,7 @@ input[type="submit"].delete {
     margin-bottom: 20px;
 }
 
-.add_customer{
+.addbutton_small{
     background: #3ea959;
     height: 60px;
     width: 60px;
@@ -484,14 +511,19 @@ input[type="submit"].delete {
     bottom: 40px;
     width: 125px;
     height: 125px;
-    font-family: "Roboto Lt";
     font-style: normal;
+    font-family: "Roboto Lt";
     color: #FFF;
     padding: 25px;
     font-size: 60px;
     border-radius: 50%;
     background-color: #3ea959;
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+}
+
+.addbutton .fa-paper-plane{
+    font-size: 40px!important;
+    font-family: "FontAwesome"!important;
 }
 
 .addbutton i, .printbutton.print_customers{
